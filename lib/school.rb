@@ -12,10 +12,6 @@ class School
     @roster[grade.to_s] << name
   end
   
-  def roster
-    puts @roster    
-  end
-  
   def grade(num)
     puts @roster[:num]
   end
