@@ -13,7 +13,7 @@ class School
   end
   
   def grade(num)
-    puts @roster[num]
+    @roster[num]
   end
   def sort 
     
